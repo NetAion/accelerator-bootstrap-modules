@@ -230,7 +230,7 @@ variable "resource_names" {
     container_instance_managed_identity                         = "id-{{service_name}}-{{environment_name}}-{{azure_location}}-{{postfix_number}}-aci"
     runner_01                                                   = "runner-{{service_name}}-{{environment_name}}-{{postfix_number}}"
     runner_02                                                   = "runner-{{service_name}}-{{environment_name}}-{{postfix_number_plus_1}}"
-    version_control_system_repository                           = "{{service_name}}-{{environment_name}}"
+    version_control_system_repository                           = "alz-import"
     version_control_system_repository_templates                 = "{{service_name}}-{{environment_name}}-templates"
     version_control_system_environment_plan                     = "{{service_name}}-{{environment_name}}-plan"
     version_control_system_environment_apply                    = "{{service_name}}-{{environment_name}}-apply"
